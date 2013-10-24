@@ -5,13 +5,13 @@
 # Requirements
 require 'compass'
 require 'susy'
-require 'gemfiles'
+require 'rubygems'
 
 # Asset locations
-set :css_dir 'Stylesheets'
-set :js_dir 'Javascripts'
-set :images_dir 'Images'
-set :font_dir 'Fonts'
+set :css_dir, 'Stylesheets'
+set :js_dir, 'Javascripts'
+set :images_dir, 'Images'
+set :font_dir, 'Fonts'
 
 
 
