@@ -6,6 +6,7 @@
 require 'compass'
 require 'susy'
 require 'rubygems'
+require 'placeholder'
 
 # Asset locations
 set :css_dir, 'Stylesheets'
