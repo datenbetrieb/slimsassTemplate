@@ -1,10 +1,10 @@
 @import 'base';
 
 //Responsive settings
-
 @media only screen and (max-width: 480px) {
   .page {
     @include container($android-columns);
+    //Demo change - New Layouts here
     background-color: black;
   }
 }
@@ -19,13 +19,17 @@ html {
       @include susy-grid-background;
       height: 1200px;
 
-      .outerPage {
+      header {
 
-        .innerPage {
-          background-color: gray;
-        }
+      }
+
+      main .main {
+        background-color: gray;
+      }
+
+      footer {
+
       }
     }
   }
 }
-
