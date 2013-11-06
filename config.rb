@@ -17,8 +17,8 @@ set :font_dir, 'Fonts'
 
 
 
-
 # Ignores
+ignore '.idea/workspace.xml'
 
 ######################################################################
 # Development environment.
