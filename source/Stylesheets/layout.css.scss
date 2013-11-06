@@ -16,15 +16,12 @@ html {
   body {
     .page {
       @include container($total-columns);
-      @include susy-grid-background;
-      height: 1200px;
 
       header {
 
       }
 
       main .main {
-        background-color: gray;
       }
 
       footer {
