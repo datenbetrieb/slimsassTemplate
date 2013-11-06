@@ -1,5 +1,31 @@
 @import 'base';
 
-.innerPage {
-  background-color: gray;
+//Responsive settings
+
+@media only screen and (max-width: 480px) {
+  .page {
+    @include container($android-columns);
+    background-color: black;
+  }
 }
+
+
+html {
+  @include reset-baseline();
+  @include establish-baseline($base-fontsize);
+  body {
+    .page {
+      @include container($total-columns);
+      @include susy-grid-background;
+      height: 1200px;
+
+      .outerPage {
+
+        .innerPage {
+          background-color: gray;
+        }
+      }
+    }
+  }
+}
+
