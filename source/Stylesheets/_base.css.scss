@@ -1,2 +1,15 @@
 @import "compass";
 @import "compass/reset";
+@import "susy";
+
+// Grid settings
+$total-columns: 12;
+$column-width: 5em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
+// Android grid
+$android-columns: 4;
+
+//Fontsize
+$base-fontsize: 14px;
