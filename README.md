@@ -35,7 +35,11 @@ $ middleman build
 more informations about the tools can be found here
 
 Slim: http://slim-lang.com
+
 Scss: http://sass-lang.com
+
 Compass: http://compass-styles.org
+
 Susy: http://susy.oddbird.net
+
 middlemanapp: http://middlemanapp.com
