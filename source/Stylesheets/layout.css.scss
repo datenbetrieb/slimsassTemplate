@@ -1,21 +1,11 @@
 @import 'base';
 
-//Responsive settings
-@media only screen and (max-width: 480px) {
-  .page {
-    @include container($android-columns);
-    //Demo change - New Layouts here
-    background-color: black;
-  }
-}
-
-
 html {
   @include reset-baseline();
   @include establish-baseline($base-fontsize);
   body {
     .page {
-      @include container($total-columns);
+      @include container;
 
       header {
 

@@ -8,3 +8,4 @@ It will use a lot of ideas from the html5boilerplate project but instead of usin
   * it include compass (compass-styles.org) because it provides a lot of usefull sass mixins which can be uses to improve styling speed
   * as grid-system we use oddbirds susy (susy.oddbird.net)
 
+The folders structure is aligned to the TYPO3 FLOW framework structure for a fast import.
