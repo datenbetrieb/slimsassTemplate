@@ -5,7 +5,7 @@ html
     = stylesheet_link_tag "layout.css"
   body
     .page
-      header
+      == partial "Partials/Header" || ""
       main
         = yield
-      footer
+      == partial "Partials/Footer" || ""
